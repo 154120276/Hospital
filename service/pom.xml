@@ -11,6 +11,10 @@
 
     <artifactId>service</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>service_user</module>
+        <module>service_hosp</module>
+    </modules>
 
     <dependencies>
 
