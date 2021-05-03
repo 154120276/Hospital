@@ -13,11 +13,32 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_user</module>
-        <module>service_hosp</module>
+        <module>service_hospital</module>
+        <module>service_cmn</module>
+        <module>service_msm</module>
+        <module>service_oss</module>
+
+        <module>service_task</module>
+        <module>service_statistics</module>
+        <module>servce_order</module>
     </modules>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.zcj</groupId>
+            <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcj</groupId>
+            <artifactId>common_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcj</groupId>
+            <artifactId>service_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

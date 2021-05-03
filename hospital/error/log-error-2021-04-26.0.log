@@ -1,0 +1,54 @@
+2021-04-26 22:31:40.258 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dictFeignClient in com.zcj.yygh.hosp.service.impl.HospitalServiceImpl required a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' in your configuration.
+
+2021-04-26 22:33:40.297 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dictFeignClient in com.zcj.yygh.hosp.service.impl.HospitalServiceImpl required a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' in your configuration.
+
+2021-04-26 22:34:35.718 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field dictFeignClient in com.zcj.yygh.hosp.service.impl.HospitalServiceImpl required a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zcj.yygh.cmn.client.DictFeignClient' in your configuration.
+

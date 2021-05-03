@@ -4,11 +4,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hostpital_manage/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/service/service_hosp/pom.xml" />
+        <option value="$PROJECT_DIR$/service/service_order/pom.xml" />
+        <option value="$PROJECT_DIR$/service_client/service_cmn_client/pom.xml" />
         <option value="$PROJECT_DIR$/service_hosp/pom.xml" />
         <option value="$PROJECT_DIR$/service_user/pom.xml" />
         <option value="$PROJECT_DIR$/service_util/pom.xml" />

@@ -1,0 +1,18 @@
+2021-04-17 16:24:09.761 [http-nio-8201-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 9, column: 2]]
+2021-04-17 16:24:18.985 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'
+### The error may exist in com/zcj/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.zcj.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status,   is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,   ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'
+; Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode']
+2021-04-17 16:24:42.430 [http-nio-8201-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'
+### The error may exist in com/zcj/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.zcj.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'
+; Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_03' for key 'hospital_set.uk_hoscode']
